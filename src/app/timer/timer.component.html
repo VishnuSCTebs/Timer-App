@@ -1,0 +1,2 @@
+<app-timer-display [time]="getCurrentTime()" [isEnabled]="isActive"></app-timer-display>
+<app-timer-control [isStarted]="isActive" (startEvent)="start()" (stopEvent)="pause()" (resetEvent)="reset()"></app-timer-control>
